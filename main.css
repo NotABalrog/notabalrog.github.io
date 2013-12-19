@@ -1,0 +1,222 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+li {
+    position: relative;
+    display: inline;
+    margin: 10px;
+}
+
+nav {	
+	min-width: 100%;
+	height: 48px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.day {
+	float: left;
+	margin: 12px;
+	padding: 15px 46px;	
+	font-size: 12px;
+	color: #999
+}
+
+section {	
+	margin: 30px auto;
+	width: 825px;
+	display: block;
+}
+
+sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+nav ul {
+	position: relative;
+	bottom: 2px;
+	right: 1px;
+	float: right;
+	margin: 12px 18px;
+	padding: 10px 30px;
+}
+
+nav li {
+	margin: 15px 5px 15px 6px;
+	padding: 5px 4px;
+	font-size: 12px;
+	display: inline;
+	color: #369;
+}
+
+header {
+	clear: both;
+	width: 829px;
+	height: 163px;
+	margin: 0 auto;
+	padding: 6px 0;
+	text-align: center;
+	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+    position: relative;
+}
+
+header h1 {
+	font-weight: 500;
+	font-size: 58px;
+	line-height: 1em;
+	margin: 10px 0 20px 0;
+	letter-spacing: -2px;
+	color: #232323;
+	clear: both;
+}
+
+header h5 {
+	font-weight: 500;
+	font-size: 20px;	
+	line-height: 1.5em;
+	margin: 10px 0;
+	color: #222;
+}
+
+.hidden{
+    clear: both;
+	width: 900px;
+	height: 163px;
+	margin: 0 auto;
+	padding: 6px 0;
+	text-align: center;
+	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+    position: relative;
+    z-index: 1;
+}
+
+
+.hidden h1 {
+    font-weight: 500;
+	font-size: 58px;
+	line-height: 1em;
+	margin: 10px 0 20px 0;
+	letter-spacing: -2px;
+	color: #232323;
+	clear: both;
+    position: relative;
+}
+.hidden h5 {
+    font-weight: 500;
+	font-size: 20px;	
+	line-height: 1.5em;
+	margin: 10px 0;
+	color: #222;
+    position: relative;
+}
+
+.products {
+	text-align: center;
+	height: 288px;
+	padding-bottom: 30px;
+    padding-top: 20px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.products h3 {
+	font-size: 21px;
+	color: #369;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin: 0 0 10px 0;
+}
+
+.products h3 span {
+	text-decoration: underline;
+}
+
+.products p {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin: 5px 0;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;	
+}
+
+.products a {
+	position: relative;
+	top: 40px;
+	left: 75px;
+	width: 160px;
+	margin: 15px 20px 5px;
+	float: left;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-box-shadow: 0 0 5px #EFEFEF;
+	-moz-box-shadow: 0 0 5px #efefef;
+	box-shadow: 0 0 5px #EFEFEF;
+	padding: 20px 10px 10px;
+	text-decoration: none;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	background: -webkit-gradient(linear, left top, left bottom, from(white), to(#EFEFEF));
+	background: -moz-linear-gradient(top, white, #EFEFEF);
+}
+
+.right-arrow {	
+    position: absolute;
+    left: 280px;
+    bottom: -145px;
+    z-index: 4;
+}
+
+.right-arrow-b {
+    position: absolute;
+    left: 540px;
+    bottom: -145px;
+    z-index: 4;
+}
+
+.left-arrow {
+	position: absolute;
+    right: 290px;
+    bottom: -145px;
+}   
+
+ h1 span {
+	color: #369;
+	font-size: 58px;
+	text-decoration: underline;
+	line-height: 40px;
+}
+
+.bottomStars {
+    text-align: center;
+}
